@@ -1,10 +1,11 @@
 import React from 'react';
+import UserInput from './UserInput';
 // import { render } from 'react-dom';
 
 const UserOutput = (props) => {
   return (
     <div>
-      <h2>Username: {props.username}</h2>
+      <h2>Username: {props.changed}</h2>
       <p>Economists generally think of self interest
         as maximizing the present value of one’s consumption, 
         or wealth, independent of others. Wealth can be generalized
