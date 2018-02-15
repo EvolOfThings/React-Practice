@@ -25,11 +25,6 @@ render() {
       <UserInput 
         changed={this.nameChangeHandler}/>
       <UserOutput 
-        usernameC={this.state.username}
-        changed={this.nameChangeHandler} />
-      <UserOutput
-        usernameC={this.state.username} />
-      <UserOutput
         usernameC={this.state.username} />
     </div>
   );
