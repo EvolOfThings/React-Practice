@@ -2,8 +2,15 @@ import React from 'react';
 // import { render } from 'react-dom';
 
 const UserOutput = (props) => {
+  const outputStyle = {
+    width: '60%',
+    padding: '15px',
+    margin: '15px',
+    border: '2px solid black',
+    backgroundColor: '#ccc',
+  };
   return (
-    <div>
+    <div style={outputStyle}>
       <h2>Username: {props.usernameC}</h2>
       <p>Economists generally think of self interest
         as maximizing the present value of one’s consumption, 
