@@ -19,12 +19,12 @@ nameChangeHandler = (event) => {
   })
 }
 
-render() {
+render() {  
   return (
     <div>
-      <UserInput 
+      <UserInput
         changed={this.nameChangeHandler}/>
-      <UserOutput 
+      <UserOutput
         usernameC={this.state.username} />
     </div>
   );
